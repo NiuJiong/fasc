@@ -117,9 +117,13 @@ header ul li:nth-child(3) a img{
 	letter-spacing: 0.05rem;
 	margin-bottom: 0.3rem;
 }
+.main .instructions{
+	background: #EFECF0;
+	padding: 0.5rem;
+}
 .main .instructions p{
 	font-size: 12px;
-	color: #666666;
+	color: #999999;
 	line-height: 20px;
 	letter-spacing: 0.05rem;
 	margin-bottom: 0.3rem;
@@ -130,6 +134,8 @@ header ul li:nth-child(3) a img{
 .main .instructions p b{
 	color: black;
 }
+
 .main .instructions h4{
+	background: #EFECF0;
 	text-align: center;
 }
