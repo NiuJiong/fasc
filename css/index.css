@@ -1,6 +1,8 @@
 
 
-
+.big{
+	padding-bottom: 70px;
+}
 header{
 	background: #3B76D8;
 	color: white;
@@ -134,6 +136,7 @@ header ul li img{
 .content .but{
 	float: right;
 	margin-right: 1rem;
+	vertical-align: middle;
 }
 .content .but button{
 	border: none;
@@ -159,6 +162,7 @@ header ul li img{
 	border-radius:3px;
 	text-align: center;
 	border: 1px solid #E8E8E8;
+	vertical-align: middle;
 }
 .content ul li:nth-child(1) span:nth-child(1){
 	background: #86D7AA;
@@ -172,12 +176,15 @@ header ul li img{
 	font-size:15px;
 }
 .pic{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background: #F0F0F0;
 	padding:0.6rem 0;
 	padding-left: 1rem;
 	font-size: 15px;
 	color: #666666;
-	
 }
 .pic span{
 	color: #3C76D9;
