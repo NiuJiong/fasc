@@ -47,7 +47,7 @@ header ul li img{
 	display: inline-block;
 	margin-left: 1.5rem;
 	color: #666666;
-	padding: 0.75rem 0;
+	padding: 0.5rem 0;
 	padding-left:1.3rem;
 	background:url(../images/jiayouzhan.png) no-repeat 0 center;
 	background-size:0.7rem;
@@ -56,7 +56,7 @@ header ul li img{
 .topup{
 	border-top:3px solid #3B76D8;
 	border-bottom: 1px solid #DCDCDC;
-	padding-bottom:0.8rem;
+	padding-bottom:0.5rem;
 }
 .topup .cz{
 	float: left;
@@ -107,12 +107,12 @@ header ul li img{
 	display: inline-block;
 }
 .content ul li:nth-child(1){
-	padding: 0.6rem 0;
+	padding: 0.1rem 0 0.3rem 0;
 	margin-left: 1rem;
 }
 .content ul li:not(:nth-child(1)){
 	border-top:1px solid #EDEDED;
-	padding: 1rem 0;
+	padding: 0.3rem 0;
 }
 .content ul li p:nth-child(1) span:nth-child(1){
 	background: #97AEDD;
@@ -125,7 +125,7 @@ header ul li img{
 .content ul li p:nth-child(2){
 	margin-left: 1.6rem;
 	color: #3C76D9;
-	margin-top: 0.3rem;
+	margin-top: 0.1rem;
 	font-size:15px;
 }
 .content ul li p:nth-child(1) span:nth-child(2){
@@ -138,15 +138,22 @@ header ul li img{
 .content .but button{
 	border: none;
 	outline: none;
-	background: #71CD9A;
-	border-radius:50%;
 	color: white;
-	padding:1px 8px;
-	font-size:20px;
+	background:;
+	width: 21px;
+	height: 21px;
+	vertical-align: middle;
+	border-radius:50%;
+}
+.content .but button:nth-child(1){
+	background: url(../images/jian.png) no-repeat center center;	
+	background-size:25px auto;
 }
 .content .but button:nth-child(3){
-	background: #3B76D8;
+	background: url(../images/jia.png) no-repeat center center;	
+	background-size:25px auto;
 }
+
 .content .but span:nth-child(2){
 	width:40px;
 	border-radius:3px;
@@ -156,17 +163,17 @@ header ul li img{
 .content ul li:nth-child(1) span:nth-child(1){
 	background: #86D7AA;
 	color: white;
-	font-size: 0.8rem;
+	font-size: 15px;
 	padding:0.05rem 0.2rem;
 	border-radius:3px;
 	margin-right: 0.2rem;
 }
 .content ul li:nth-child(1) span:nth-child(2){
-	font-size: 0.9rem;
+	font-size:15px;
 }
 .pic{
 	background: #F0F0F0;
-	padding: 1.2rem 0;
+	padding:0.6rem 0;
 	padding-left: 1rem;
 	font-size: 15px;
 	color: #666666;
