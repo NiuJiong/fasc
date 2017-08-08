@@ -62,14 +62,16 @@ header ul li:nth-child(3) a img{
 
 
 .main{
-	padding:1rem 1rem;
+	padding: 0 1rem;
+	padding-bottom: 1rem;
 }
 .main h4{
+	margin: 1rem 0 0.5rem 0;
 	font-size: 15px;
 	color: #3B76D8;
 }
 .main .introduce{
-	margin-top: 0.5rem;
+	/*margin-top: 0.5rem;*/
 	border: 1px solid #1F1F1F;
 }
 .main .introduce li{
@@ -107,4 +109,27 @@ header ul li:nth-child(3) a img{
 }
 .main .introduce li:last-child{
 	border: none;
+}
+.main .know p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	letter-spacing: 0.05rem;
+	margin-bottom: 0.3rem;
+}
+.main .instructions p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+	letter-spacing: 0.05rem;
+	margin-bottom: 0.3rem;
+}
+.main .instructions p span{
+	color: #9D8765;
+}
+.main .instructions p b{
+	color: black;
+}
+.main .instructions h4{
+	text-align: center;
 }
