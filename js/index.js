@@ -16,6 +16,7 @@ $(function(){
 			num = 0;
 		}
 		$(this).next().html(num);
+		sum();
 	});
 	
 //	总价
