@@ -23,13 +23,9 @@ $(function(){
 	function sum(){
 		var sum;
 		var one = $(".one").html() * $(".picone").html();
-		console.log(one);
 		var two = $(".two").html() * $(".pictwo").html();
-		console.log(two);
 		var three = $(".san").html() * $(".picthree").html();
-		console.log(three);
 		sum = one + two + three;
-		console.log(sum);
 		$(".pic span").html("￥"+sum+".00");
 	}
 	
