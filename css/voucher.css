@@ -1,6 +1,6 @@
 @font-face {
 	font-family:regular;
-	src: url(../font/SourceHanSansCN-Regular.TTF);
+	src: url("../font/PingFang Medium.ttf");
 }
 body{
 	background: #CCCCCC;
@@ -23,6 +23,7 @@ header ul li{
 	vertical-align: middle;
 	text-align: center;
 	font-size:16px;
+	
 }
 header ul li:first-child{
 	text-align: left;
@@ -46,8 +47,12 @@ header ul li img{
 	padding: 0.8rem;
 }
 .main ul li{
-	background-color:#FFFFFF;
+	
 	height: 100px;
+	background-image: url(../images/borderleft.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color:#FFFFFF;
 }
 .main ul li .left{
 	float: left;
@@ -67,18 +72,19 @@ header ul li img{
 }
 .main ul li .left p:nth-child(1){
 	font-size: 14px;
+	
 	color: #3366CC;
 	margin-top: 3px;
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 }
 .main ul li .left p:nth-child(2){
 	font-size: 14px;
 	color: #333333;
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 	margin-top: 10px;
 }
 .main ul li .left p:nth-child(2) span{
-	font-size: 36px;
+	font-size: 34px;
 	color: #3366CC;
 	margin-right: 0.1rem;
 }
@@ -86,8 +92,9 @@ header ul li img{
 	margin-left: 0.5rem;
 }
 .main ul li .right p:nth-child(1){
+	font-weight: bold;
 	font-size: 14px;
-	color: #333333;
+	color: #666666;
 	margin-top: 3px;
 }
 .main ul li .right p:nth-child(n+2){
@@ -96,8 +103,8 @@ header ul li img{
 	margin-top: 10px;
 }
 .main ul li .right i{
-	margin-right: 0.3rem;
+	margin-right: 0;
 }
 p,span{
-	font-family: "regular";
+	font-family:"regular";
 }
