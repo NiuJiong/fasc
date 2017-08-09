@@ -58,7 +58,7 @@ header ul li img{
 .topup{
 	border-top:3px solid #3B76D8;
 	border-bottom: 1px solid #DCDCDC;
-	padding-bottom:0.5rem;
+/*	padding-bottom:0.5rem;*/
 }
 .topup .cz{
 	float: left;
@@ -68,14 +68,22 @@ header ul li img{
 	float: left;
 	display: block;
 	vertical-align: middle;
-	padding: 1.1rem 0 0 0;
+	padding: 1rem 0 1rem 0;
+	height: 100%;
 	padding-left: 2.5rem;
 	color: #3B76D8;
 	font-size: 14px;
-	background: url(../images/chognzhi.png) no-repeat 1.1rem 93%;
+}
+.topup  a:nth-child(2){
+	background: url(../images/chognzhi.png) no-repeat 1.1rem center;
 	background-size:1rem;
 }
-
+.topup  a:nth-child(3){
+	float: right;
+	margin-right: 1rem;
+	background: url(../images/vouvher.png) no-repeat 1.1rem center;
+	background-size:1rem;
+}
 .topup .blue{
 	display: block;
 	background: #3B76D8;

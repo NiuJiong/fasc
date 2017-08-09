@@ -1,0 +1,96 @@
+body{
+	background: #CCCCCC;
+}
+header{
+	background: #3B76D8;
+	color: white;
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0.2rem 0;
+}
+header ul{
+	height: 100%;
+}
+header ul li{
+	height: 100%;
+	float: left;
+	width: 33.33333%;
+	line-height: 2rem;
+	vertical-align: middle;
+	text-align: center;
+	font-size:16px;
+}
+header ul li:first-child{
+	text-align: left;
+}
+header ul li a{
+	display: inline-block;
+	height: 100%;
+	width: 2rem;
+	margin-left: 0;
+}
+
+header ul li img{
+	display: block;
+	width: 0.5rem;
+	margin-left: 1rem;
+	margin-top: 0.6rem;
+	vertical-align: middle;
+}
+
+.main{
+	padding: 0.8rem;
+}
+.main ul li{
+	background-color:#FFFFFF;
+	height: 100px;
+}
+.main ul li .left{
+	float: left;
+	width: 33%;
+	border-right:1px dashed #B2B2B2;
+	height: 80px;
+	margin-top: 10px;
+}
+.main ul li:nth-child(n+2){
+	margin-top:0.8rem;
+}
+.main ul li .right{
+	float: left;
+	width: 66.5666666666%;
+	height: 80px;
+	margin-top: 10px;
+}
+.main ul li .left p:nth-child(1){
+	font-size: 14px;
+	color: #3366CC;
+	margin-top: 3px;
+	margin-left: 0.5rem;
+}
+.main ul li .left p:nth-child(2){
+	font-size: 14px;
+	color: #333333;
+	margin-left: 0.5rem;
+	margin-top: 10px;
+}
+.main ul li .left p:nth-child(2) span{
+	font-size: 36px;
+	color: #3366CC;
+	margin-right: 0.1rem;
+}
+.main ul li .right p{
+	margin-left: 0.5rem;
+}
+.main ul li .right p:nth-child(1){
+	font-size: 14px;
+	color: #333333;
+	margin-top: 3px;
+}
+.main ul li .right p:nth-child(n+2){
+	font-size: 11px;
+	color: #999999;
+	margin-top: 10px;
+}
+.main ul li .right i{
+	margin-right: 0.3rem;
+}
