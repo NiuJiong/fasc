@@ -26,11 +26,24 @@ $(function(){
 		var two = $(".two").html() * $(".pictwo").html();
 		var three = $(".san").html() * $(".picthree").html();
 		sum = one + two + three;
-		$(".pic span").html("￥"+sum+".00");
+		$(".pic .price").html(sum+".00");
 	}
 	
 	
 	
+//	弹窗
 	
+	$(".pic button").click(function(){
+		var pi = parseInt($(".pic .price").html()); 
+		if(pi == 0){
+			$(".elect").addClass("active");
+		}else{
+			$(".produce").addClass("active");
+			$(".produce div").addClass("active");
+		}
+	});
+	$(".elect .disappear").click(function(){
+		$(".elect").removeClass("active");
+	});
 	
 });
